@@ -1,0 +1,43 @@
+{
+	"name": "vue-countdown-timer",
+	"version": "1.0.0",
+	"description": "Countdown timer component for Vue.",
+	"main": "countdown.js",
+	"scripts": {
+		"build": "webpack",
+		"dev": "webpack --env.development",
+		"prod": "webpack --env.production"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mghextreme/VueCountdownTimer.git"
+	},
+	"keywords": [
+		"vue",
+		"countdown",
+		"timer",
+		"clock"
+	],
+	"author": "Matias G Henschel",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/mghextreme/VueCountdownTimer/issues"
+	},
+	"homepage": "https://github.com/mghextreme/VueCountdownTimer#readme",
+	"dependencies": {
+		"jquery": "^3.3.1",
+		"jquery.easing": "^1.4.1",
+		"vue": "^2.5.16"
+	},
+	"devDependencies": {
+		"css-loader": "^1.0.0",
+		"node-sass": "^4.9.2",
+		"sass-loader": "^7.0.3",
+		"style-loader": "^0.21.0",
+		"vue-loader": "^15.2.4",
+		"vue-style-loader": "^4.1.0",
+		"vue-template-compiler": "^2.5.16",
+		"webpack": "^4.15.1",
+		"webpack-cli": "^3.0.8"
+	}
+}
