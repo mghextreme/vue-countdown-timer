@@ -1,10 +1,10 @@
 <template>
 	<div class="countdown-timer">
-		<countdown-timer-part v-bind:number="weeks" cycle="52"></countdown-timer-part>
-		<countdown-timer-part v-bind:number="days" cycle="7"></countdown-timer-part>
-		<countdown-timer-part v-bind:number="hours" cycle="24"></countdown-timer-part>
-		<countdown-timer-part v-bind:number="minutes" cycle="60"></countdown-timer-part>
-		<countdown-timer-part v-bind:number="seconds" cycle="60"></countdown-timer-part>
+		<countdown-timer-part v-bind:number="weeks" cycle="52" name="weeks"></countdown-timer-part>
+		<countdown-timer-part v-bind:number="days" cycle="7" name="days"></countdown-timer-part>
+		<countdown-timer-part v-bind:number="hours" cycle="24" name="hours"></countdown-timer-part>
+		<countdown-timer-part v-bind:number="minutes" cycle="60" name="minutes"></countdown-timer-part>
+		<countdown-timer-part v-bind:number="seconds" cycle="60" name="seconds"></countdown-timer-part>
 	</div>
 </template>
 

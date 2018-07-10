@@ -1,0 +1,5 @@
+ul#counters > li#weeks { color: #976cd1; }
+ul#counters > li#days { color: #6c97d1; }
+ul#counters > li#hours { color: #7ad16c; }
+ul#counters > li#minutes { color: #d1d06c; }
+ul#counters > li#seconds { color: #d16c6c; }

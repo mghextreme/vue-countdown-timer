@@ -1,13 +1,14 @@
 <template>
-	<div class="countdown-timer-part">
+	<div v-bind:id="name" class="countdown-timer-part">
 		<span class="value">{{number}}</span>
 		<span class="background" v-bind:style="styleObject">{{number}}</span>
+		<span class="name">{{name}}</span>
 	</div>
 </template>
 
 <script type="text/javascript">
 	export default {
-		props: ['number', 'cycle', 'bgdir'],
+		props: ['name', 'number', 'cycle', 'bgdir'],
 		computed: {
 			percentage() {
 				if (this.cycle == 0)
